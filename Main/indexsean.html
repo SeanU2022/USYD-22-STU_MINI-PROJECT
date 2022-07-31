@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My New Website Landing Page</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/syduni_logo.ico">
+  <link rel="stylesheet" href="./assets/css/stylesean.css">
+  <style></style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li id="nav-menu-1">Github</li>
+        <li id="nav-menu-2">Portfolio</li>
+        <li id="nav-menu-3">Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1 id="heading1">My New Website</h1>
+    </section>
+
+    <section style="background-color:rgb(17, 255, 0); display: grid; place-items: center;">
+      <section style="height: 600px; width: 600px; background-color: rgb(79, 73, 70); display: grid; place-items: center;">
+        <section style="height: 520px; width: 520px; border: 16px solid rgb(234, 197, 170); display: grid; place-items: center;">
+          <section style="height: 440px; width: 440px; border: 16px solid rgb(29, 84, 66); display: grid; place-items: center;">
+            <section style="height: 360px; width: 360px; border: 16px solid rgb(231, 175, 135); display: grid; place-items: center;">
+              <span style="color: rgb(234, 197, 170); text-transform: uppercase; font-size: 40px; border: 0px; text-align: center;">Coming<br>Soon<br>
+                <span style="font-size:medium; text-transform:none">Sections=Divs and spans fit inside spans, Custom colours in :root use var(--color), GRID class is awesome! AND you can mix inline style with class and id selectors</span>
+              </span>
+            </section>
+        </section>
+        </section>
+      </section>  
+    </section>
+
+    <p>VISIBILITY HIDDEN(out of DOM) vs DISPLAY NONE (in DOM)</p>
+
+    <div class="grid">
+      <div class="grid" id="box1">
+        <div class="grid" id="box2">
+          <div class="grid" id="box3">
+            <div class="grid" id="box4">
+              <span id="box4text">Coming<br>Soon<br>Div</span>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <p id="mainText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <form class="grid" id="sectionContactMe">
+      <!-- <p style="width: 700px; line-height: 60px; font-size: 30px; font-weight: bold;">Contact Me</p> -->
+      <h2 id="heading2">Contact Me</h2>
+        <div id="divContactMe" class="rcorners" style="width: 700px; height: 160px; border: 6px solid var(--myTanDark);">
+          <label for="personName">Name:</label>
+          <input type="text" id="personName" name="personName" style="margin-top: 20px; width: 400px; padding: 0px;">
+          <br style="padding: 0px;">
+          <label for="personEmail">Email:</label>
+          <input type="text" id="personEmail" name="personEmail" style="margin-top: 4px; width: 400px; padding: 0px;">
+          <br>
+          <button type="button" style="text-transform: uppercase; font-weight:900; line-height: 60px; height: 60px; width: 160px; background-color: var(--myBrown); color: white;">Send</button>
+        </div>
+    </form>
+
+  </main>
+  <footer>
+    <p>© 2022 My New Website Productions</p>
+  </footer>
+</body>
+</html>

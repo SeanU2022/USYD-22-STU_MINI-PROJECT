@@ -1,0 +1,138 @@
+:root {
+  --myGreenDark: rgb(29, 84, 66);
+  --myBrown: rgb(79, 73, 70);
+  --myTanDark: rgb(231, 175, 135);
+  --myTanLight: rgb(234, 197, 170);
+}
+
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /* padding: 0; */
+  margin: 0;
+}
+
+/* ELEMENT SELECTORS HEADER AREA */
+
+header {
+  height: 60px;
+  width: 100%;
+  color: white;
+  background-color: var(--myGreenDark);
+  border-bottom: 10px solid var(--myTanDark);
+  position: fixed;
+}
+
+ul {
+  text-align: right
+  /* margin: 0px; */
+}
+
+/* List items in navigation bar */
+li {
+  display: inline;
+  list-style-type: none;
+  line-height: 60px;
+  padding-inline: 20px;
+}
+
+/* ELEMENT SELECTORS MAIN AREA */
+main {
+  /* ACID BLUE LIKE COLOUR IS USED ONCE */
+  background-color:rgb(248, 248, 245);
+}
+
+/* ELEMENT SELECTORS FOOTER AREA */
+footer {
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  color: white;
+  background-color: var(--myGreenDark);
+  border-bottom: 10px solid var(--myBrown);
+}
+
+/* CLASS SELECTORS HEADER AREA */
+
+/* CLASS SELECTORS MAIN AREA */
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.rcorners {
+  border-radius: 25px;
+}
+
+/* CLASS SELECTORS FOOTER AREA */
+
+/* ID SELECTORS HEADER AREA */
+#heading1 {
+  padding: 20px;
+  /* font-weight: bold; */
+  font-size: 40px;
+  /* text-align: center; */
+}
+
+/* ID SELECTORS MAIN AREA */
+
+#box1 {
+  height: 600px; 
+  width: 600px;
+  background-color: var(--myBrown);
+}
+
+#box2 {
+ height: 520px; 
+ width: 520px; 
+ border: 16px solid var(--myTanLight);
+}
+
+#box3 {
+  height: 440px; 
+  width: 440px; 
+  border: 16px solid var(--myGreenDark);
+}
+
+#box4 {
+  height: 360px;
+  width: 360px;
+  border: 16px solid var(--myTanDark);
+}
+
+#box4text {
+  color: var(--myTanLight); 
+  text-transform: uppercase; 
+  font-size: 40px; 
+  border: 0px; 
+  text-align: center;
+}
+
+#mainText {
+  line-height: 60px;
+  background-color: blueviolet;
+}
+
+# sectionContactMe{
+  padding: 20px;
+  background-color: var(--myTanLight);
+  border: 2px solid var(--myTanDark);
+}
+
+#heading2 {
+  padding: 20px;
+  /* font-weight: bold; */
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+/* #divContactme {
+  width: 700px; 
+  height: 160px; 
+  border: 6px solid var(--myTanDark);
+  border-radius: 25px;
+} */
+
+/* ID SELECTORS FOOTER AREA */

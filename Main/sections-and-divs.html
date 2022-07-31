@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sections and Div</title>
+  <style>
+
+    section#sectionTop {
+      background-color: yellow;
+    }
+
+    section#sectionLeft {
+      background-color: orange;
+      width: 50%;
+      float: left;
+    }
+
+    section#sectionRight {
+      background-color: lightblue;
+      width: 50%;
+      float: right;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="conatainerDiv">
+    <section id="sectionTop">
+      <h1>Sections and Divs</h1>
+      <p>SectionTop: Contains Nav bar or Hero</p>
+      <p>A section contains a Key/Main area("section") of the webpage</p>
+      <p>Whilst you can...they generally do not have sections in sections</p>
+    </section>
+
+    <section id="sectionLeft">
+      <p>Left Side</p>
+      <p>SectionLeft: Eg Contains articles or columns</p>
+      <div style="background-color:chocolate">
+        Banner Ad 1
+        <div style="background-color:crimson">
+          Divs and Sections can live in Divs/Sections
+        </div>
+      </div>
+    </section>
+
+    <section id="sectionRight">
+      <p>Right Side</p>
+      <p>SectionRight: Eg Contains asides or advertisements</p>
+      <div style="background-color:aliceblue">
+        Banner Ad 2
+        <div style="background-image: repeating-linear-gradient(45deg, transparent, transparent 20px, yellow 20px, yellow 40px);">
+          Good Practice: only use Divs for style or JS when no Semantic elements can be used
+        </div>
+        <div>
+          ONLY DIV and SPAN are NON-SEMANTIC ELEMENTS (they are just dividers so SOE cannot figure out what they are for)
+        </div>  
+      </div>
+    </section>
+  </div>
+  
+</body>
+</html>
